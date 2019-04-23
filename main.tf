@@ -29,6 +29,9 @@ locals {
 
     environment = "environment_sentinel_value"
     secrets     = "secrets_sentinel_value"
+
+    interactive    = "${var.interactive}"
+    pseudoTerminal = "${var.pseudoTerminal}"
   }
 
   environment = "${var.environment}"

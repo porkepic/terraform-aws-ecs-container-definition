@@ -143,3 +143,15 @@ variable "links" {
   description = "List of container names this container can communicate with without port mappings."
   default     = []
 }
+
+variable "interactive" {
+  type        = "string"
+  description = "Interactive command."
+  default     = "false"
+}
+
+variable "pseudoTerminal" {
+  type        = "string"
+  description = "Interactive command."
+  default     = "false"
+}
